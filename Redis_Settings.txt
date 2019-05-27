@@ -1,0 +1,4 @@
+DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
+SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+SCHEDULER_PERSIST = True  # 调度器数据持久化
+REDIS_URL = "redis://172.168.70.171:6379"
